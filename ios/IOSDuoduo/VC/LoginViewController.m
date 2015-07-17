@@ -42,8 +42,11 @@
 {
     [super viewDidLoad];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+//    if ([defaults objectForKey:@"ipaddress"] == nil) {
+//        [defaults setObject:@"http://access.teamtalk.im:8080/msg_server" forKey:@"ipaddress"];
+//    }
     if ([defaults objectForKey:@"ipaddress"] == nil) {
-        [defaults setObject:@"http://access.teamtalk.im:8080/msg_server" forKey:@"ipaddress"];
+        [defaults setObject:@"http://120.55.96.204:8080/msg_server" forKey:@"ipaddress"];
     }
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"username"]!=nil) {
         _userNameTextField.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"username"];

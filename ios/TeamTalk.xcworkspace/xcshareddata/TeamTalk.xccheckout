@@ -12,22 +12,34 @@
 	<dict>
 		<key>438AB9C685D2126C067FC6E0A59E9C7C05914A28</key>
 		<string>http://gitlab.mogujie.org/im/ttopen.git</string>
+		<key>68BB4EA023A18E3CCE8C7A5DBAD6BFD8AC592504</key>
+		<string>https://github.com/wangdxnum1/TeamTalk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ios/TeamTalk.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>438AB9C685D2126C067FC6E0A59E9C7C05914A28</key>
+		<string>../../../ttopen</string>
+		<key>68BB4EA023A18E3CCE8C7A5DBAD6BFD8AC592504</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://gitlab.mogujie.org/im/ttopen.git</string>
+	<string>https://github.com/wangdxnum1/TeamTalk.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>438AB9C685D2126C067FC6E0A59E9C7C05914A28</string>
+	<string>68BB4EA023A18E3CCE8C7A5DBAD6BFD8AC592504</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68BB4EA023A18E3CCE8C7A5DBAD6BFD8AC592504</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TeamTalk</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

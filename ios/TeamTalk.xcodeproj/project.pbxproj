@@ -2164,7 +2164,7 @@
 				ORGANIZATIONNAME = "Michael Hu";
 				TargetAttributes = {
 					C4EBA733192F279100B72723 = {
-						DevelopmentTeam = 6U33YVLGCF;
+						DevelopmentTeam = 3F6YQ3PC52;
 					};
 				};
 			};
@@ -2709,8 +2709,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Scofield (RFN7CLVWTX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2746,7 +2746,7 @@
 					"$(PROJECT_DIR)/security",
 				);
 				PRODUCT_NAME = TeamTalk;
-				PROVISIONING_PROFILE = "09d5788e-c95b-4682-8363-e5dba92ce932";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2758,8 +2758,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Scofield (RFN7CLVWTX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2791,7 +2791,7 @@
 					"$(PROJECT_DIR)/security",
 				);
 				PRODUCT_NAME = TeamTalk;
-				PROVISIONING_PROFILE = "09d5788e-c95b-4682-8363-e5dba92ce932";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

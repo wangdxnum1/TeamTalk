@@ -68,7 +68,7 @@
     
     
     
-    self.defaultCenter=self.view.center;
+    //self.defaultCenter=self.view.center;
     self.userNameTextField.leftViewMode=UITextFieldViewModeAlways;
     self.userPassTextField.leftViewMode=UITextFieldViewModeAlways;
     UIImageView *usernameLeftView = [[UIImageView alloc] init];
@@ -109,6 +109,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    self.defaultCenter=self.view.center;
     
 }
 -(void)handleWillShowKeyboard

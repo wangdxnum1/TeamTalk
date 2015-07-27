@@ -46,7 +46,7 @@
 //        [defaults setObject:@"http://access.teamtalk.im:8080/msg_server" forKey:@"ipaddress"];
 //    }
     if ([defaults objectForKey:@"ipaddress"] == nil) {
-        [defaults setObject:@"http://120.55.96.204:8080/msg_server" forKey:@"ipaddress"];
+        [defaults setObject:@"http://im.luluyuyin.com:8080/msg_server" forKey:@"ipaddress"];
     }
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"username"]!=nil) {
         _userNameTextField.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
@@ -60,7 +60,7 @@
         {
             if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"autologin"] boolValue] == YES) {
                 
-                [self login:nil];
+                //[self login:nil];
             }
             
             
@@ -109,11 +109,17 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
 }
--(void)viewWillAppear:(BOOL)animated
+//-(void)viewWillAppear:(BOOL)animated
+//{
+//    [super viewWillAppear:animated];
+//    CGRect frame = self.view.frame = [UIApplication sharedApplication].keyWindow.bounds;
+//    self.defaultCenter=self.view.center;
+//    
+//}
+-(void)viewDidAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+    [super viewDidAppear:animated];
     self.defaultCenter=self.view.center;
-    
 }
 -(void)handleWillShowKeyboard
 {
